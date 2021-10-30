@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 5em;
+  background: rgb(224, 232, 240);
+  color: darkslateblue;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h3 {
+  font-weight: 300;
+}
+button {
+  font-size: 1.5rem;
+  background: darkslateblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.2em;
+  margin-top: 0.5em;
+}
+.gameover {
+  background-color: aliceblue;
+  color: gray;
+  font-size: 1.2rem;
+  border: 1px solid darkslateblue;
+}
+
+.gamestart {
+  background-color: aliceblue;
+  box-shadow: 0 0 5px 1px white;
+  border: 1px solid darkslateblue;
+  color: darkslateblue;
+  font-size: 1.2rem;
+}
+.gameover:focus,
+.gamestart:focus {
+  outline: none;
+}
+
+footer {
+  display: flex;
+  margin-top: 2em;
+  color: darkslategray;
+}
+img {
+  width: 21px;
+  height: 21px;
+}
